@@ -29,10 +29,10 @@
           </motion.div>
           <motion.div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.7 }}>
             <Button size="lg" className="px-8 py-3 text-lg shadow-md" variant="default">
-            <a href="/signup">Try Demo</a>
+            <a href="/signup">Get Started</a>
             </Button>
             <Button size="lg" className="px-8 py-3 text-lg shadow-md" variant="secondary">
-             <a href="/login">See How It Works</a>
+             <a href="/login">Get Started</a>
             </Button>
           </motion.div>
         </div>
