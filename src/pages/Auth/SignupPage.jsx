@@ -6,16 +6,13 @@ import { useAuth } from '@/context/AuthContext';
 import AuthNavbar from '@/components/AuthNavbar';
 
 const roles = [
-  { label: 'Citizen', value: 'Citizen' },
-  { label: 'Enforcement', value: 'Enforcement' },
   { label: 'Admin', value: 'Admin' },
-  { label: 'Urban Development', value: 'UrbanDevelopment' },
-  { label: 'Revenue Department', value: 'Revenue' },
+  { label: 'Hawker', value: 'Hawker' },
 ];
 
 export default function SignupPage() {
   const [name, setName] = useState('');
-  const [role, setRole] = useState('Citizen');
+  const [role, setRole] = useState('Hawker');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
@@ -47,8 +44,8 @@ export default function SignupPage() {
       <AuthNavbar />
       <div className="pt-20 grid place-items-center p-4">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-md bg-white dark:bg-neutral-900 border border-gray-200 dark:border-neutral-800 rounded-2xl shadow-xl p-6">
-          <h1 className="text-2xl font-heading font-bold text-gray-900 dark:text-white">Create account</h1>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Sign up to access your dashboard</p>
+          <h1 className="text-2xl font-heading font-bold text-gray-900 dark:text-white">Temporary Sign Up</h1>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Temporary access for demo</p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Full Name</label>
@@ -74,7 +71,7 @@ export default function SignupPage() {
             </div>
             {error && <div className="text-sm text-red-600 dark:text-red-400">{error}</div>}
             <button type="submit" disabled={loading} className="w-full py-2 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors">
-              {loading ? 'Creating account...' : 'Sign up'}
+              {loading ? 'Creating account...' : 'Temporary Sign Up'}
             </button>
           </form>
           <div className="mt-4 text-sm text-gray-600 dark:text-gray-400">

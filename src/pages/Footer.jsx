@@ -68,7 +68,7 @@ export default function Footer() {
         {/* Social Icons */}
         
         <div className="text-xs text-slate-400 text-center mx-auto">
-          Â© 2025 &nbsp;<img src="/assets/whitelogo.png" style={{marginBottom : "7px"}} alt="Apna Vyapar" className="h-4 w-auto inline-block" />Apna Vyapar | All Rights Reserved | Made with â¤ï¸ by Team Innovate Infinity
+          Â© 2026 &nbsp;<img src="/assets/whitelogo.png" style={{marginBottom : "7px"}} alt="Apna Vyapar" className="h-4 w-auto inline-block" />Apna Vyapar | All Rights Reserved | Made with love 
         </div>
       </div>
     </footer>

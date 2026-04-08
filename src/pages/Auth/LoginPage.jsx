@@ -5,15 +5,12 @@ import { useAuth } from '@/context/AuthContext';
 import AuthNavbar from '@/components/AuthNavbar';
 
 const roles = [
-  { label: 'Citizen', value: 'Citizen' },
-  { label: 'Enforcement', value: 'Enforcement' },
   { label: 'Admin', value: 'Admin' },
-  { label: 'Urban Development', value: 'UrbanDevelopment' },
-  { label: 'Revenue Department', value: 'Revenue' },
+  { label: 'Hawker', value: 'Hawker' },
 ];
 
 export default function LoginPage() {
-  const [role, setRole] = useState('Citizen');
+  const [role, setRole] = useState('Hawker');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -41,8 +38,8 @@ export default function LoginPage() {
       <AuthNavbar />
       <div className="pt-20 grid place-items-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-md bg-white dark:bg-neutral-900 border border-gray-200 dark:border-neutral-800 rounded-2xl shadow-xl p-6">
-          <h1 className="text-2xl font-heading font-bold text-gray-900 dark:text-white">Login</h1>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Access your dashboard</p>
+          <h1 className="text-2xl font-heading font-bold text-gray-900 dark:text-white">Temporary Login</h1>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Temporary access for demo</p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Role</label>
@@ -60,7 +57,7 @@ export default function LoginPage() {
             </div>
             {error && <div className="text-sm text-red-600 dark:text-red-400">{error}</div>}
             <button type="submit" disabled={loading} className="w-full py-2 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors">
-              {loading ? 'Signing in...' : 'Login'}
+              {loading ? 'Signing in...' : 'Temporary Login'}
             </button>
           </form>
           <div className="mt-4 text-sm text-gray-600 dark:text-gray-400">
