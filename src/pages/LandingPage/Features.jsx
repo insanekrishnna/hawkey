@@ -1,6 +1,6 @@
 ﻿import React from "react";
 import { motion } from "framer-motion";
-import { IconMapPin, IconMicrophone, IconBell, IconCurrencyRupee, IconChartLine } from "@tabler/icons-react";
+import { IconMapPin, IconMicrophone, IconBell, IconCurrencyRupee, IconTrash } from "@tabler/icons-react";
 
 const features = [
   {
@@ -16,7 +16,7 @@ const features = [
     icon: <IconCurrencyRupee size={32} className="text-primary" />, title: "UPI Integration", desc: "Digital payments, instant settlement, no cash hassle."
   },
   {
-    icon: <IconChartLine size={32} className="text-primary" />, title: "Weekly Insights", desc: "Before/after comparison and growth tracking that feels motivating."
+    icon: <IconTrash size={32} className="text-primary" />, title: "Waste Management", desc: "Quick tips for clean, easy daily disposal."
   },
 ];
 
