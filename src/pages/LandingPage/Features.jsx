@@ -25,7 +25,7 @@ export default function Features() {
     <section id="features" className="py-20 bg-white dark:bg-neutral-950">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12 text-gray-900 dark:text-white">
-          VendorIQ Features
+          Apna Vyapar Features
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {features.map((f, i) => (

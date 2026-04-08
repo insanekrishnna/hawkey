@@ -22,10 +22,10 @@ export default function About() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 dark:text-white">
-            About VendorIQ
+            About Apna Vyapar
           </h2>
           <p className="mt-4 text-gray-700 dark:text-gray-200 leading-relaxed">
-            VendorIQ is a street vendor optimization platform that turns local demand signals into simple, daily actions.
+            Apna Vyapar is a street vendor optimization platform that turns local demand signals into simple, daily actions.
             It blends location intelligence, timing predictions, and effortless sales tracking so vendors can earn more
             with less guesswork.
           </p>
