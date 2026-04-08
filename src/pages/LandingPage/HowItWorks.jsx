@@ -15,7 +15,7 @@ export default function HowItWorks() {
     <section id="how-it-works" className="py-20 bg-gradient-to-b from-white to-blue-50 dark:from-neutral-950 dark:to-neutral-900">
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-heading font-bold text-center mb-12 text-gray-900 dark:text-white">
-          3 Simple Steps to Better Kamai
+          Simple Steps to Better Kamai
         </h2>
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-6">
           {steps.map((step, i) => (
