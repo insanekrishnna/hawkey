@@ -71,7 +71,7 @@ export default function SignupPage() {
             </div>
             {error && <div className="text-sm text-red-600 dark:text-red-400">{error}</div>}
             <button type="submit" disabled={loading} className="w-full py-2 rounded-lg bg-primary text-white hover:bg-primary/90 transition-colors">
-              {loading ? 'Creating account...' : 'Temporary Sign Up'}
+              {loading ? 'Creating account...' : 'Sign up'}
             </button>
           </form>
           <div className="mt-4 text-sm text-gray-600 dark:text-gray-400">
