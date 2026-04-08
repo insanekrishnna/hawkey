@@ -51,27 +51,11 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-2 text-blue-400">Contact Info</h4>
           <div className="flex items-start gap-2 text-slate-200 text-sm">
             <IconMapPin size={18} className="text-blue-400 mt-0.5" />
-            Indore Smart City Development Limited
-          </div>
-          <div className="flex items-start gap-2 text-slate-200 text-sm">
-            <IconPhone size={18} className="text-blue-400 mt-0.5" />
-            7222944058 (Team Lead: Sumit Rathore)
-          </div>
-          <div className="flex items-start gap-2 text-slate-200 text-sm">
-            <IconPhone size={18} className="text-blue-400 mt-0.5" />
-            8319403417 (Shruti Singh)
-          </div>
-          <div className="flex items-start gap-2 text-slate-200 text-sm">
-            <IconPhone size={18} className="text-blue-400 mt-0.5" />
-            9179288495 (Rohit Prajapat)
-          </div>
-          <div className="flex items-start gap-2 text-slate-200 text-sm">
-            <IconPhone size={18} className="text-blue-400 mt-0.5" />
-            9669466562 (Kartik Prajapat)
+            Indore Smart City Development
           </div>
           <div className="flex items-start gap-2 text-slate-200 text-sm">
             <IconMail size={18} className="text-blue-400 mt-0.5" />
-            info@Apna Vyapar.com
+            info@apnavyapar.com
           </div>
         </div>
       </div>
