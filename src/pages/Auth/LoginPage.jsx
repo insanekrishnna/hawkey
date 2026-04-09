@@ -38,8 +38,8 @@ export default function LoginPage() {
       <AuthNavbar />
       <div className="pt-20 grid place-items-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="w-full max-w-md bg-white dark:bg-neutral-900 border border-gray-200 dark:border-neutral-800 rounded-2xl shadow-xl p-6">
-          <h1 className="text-2xl font-heading font-bold text-gray-900 dark:text-white">Temporary Login</h1>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Temporary access for demo</p>
+          <h1 className="text-2xl font-heading font-bold text-gray-900 dark:text-white">Login</h1>
+          <p className="text-sm text-gray-600 dark:text-gray-400 mb-6">Access your account</p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
               <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Role</label>
