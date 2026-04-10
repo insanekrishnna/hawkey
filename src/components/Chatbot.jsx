@@ -137,7 +137,7 @@ const Chatbot = () => {
                 Need Help?
               </p>
               <p className="text-xs text-gray-600 dark:text-gray-400">
-                Ask me anything about reporting
+                Ask me anything
               </p>
             </motion.div>
           )}
